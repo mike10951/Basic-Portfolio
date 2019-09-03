@@ -1,0 +1,25 @@
+body {
+    background-image: url('../images/floor-tile.png');
+}
+
+nav, div {
+    width: 960px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+header {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.mainHeader {
+    background-color: #ffffff;
+}
