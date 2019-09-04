@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8"> 
     <title>Index</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
     <nav>
-        <header class="mainHeader">Miguel Cabrera</header>
         <ul>
-            <li>
-                About
+            <li class="mainHeader">
+                Miguel Cabrera
             </li>
             <li>
-                Portfolio
+                <a href="#">Contact</a> 
             </li>
             <li>
-                Contact
+                <a href ="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+                <a href ="index.html">About</a>
             </li>
         </ul>
     </nav>
-    <div>
-        <header>Contact</header>
+    <section>
+        <header class=secondaryHeader>Contact</header>
+        <hr>
         <form>
             Name<br>
-            <input type="text" name="completeName"><br>
+            <input type="text" name="completeName" value="John Smith"><br>
             Email<br>
-            <input type="text" name="userEmail"><br>
-            Message<br>
-            <input type="text" name="userMessage"><br>
+            <input type="text" name="userEmail" value="example@gmail.com"><br>
         </form> 
-    </div>
+            Message<br>
+            <textarea name="message" form="usrform"></textarea>
+            <br>
+    </section>
     <footer>Copyright</footer>
 
     
